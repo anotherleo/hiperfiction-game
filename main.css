@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0nhnc.ttf) format('truetype');
+}
+body {
+  font-family: 'Special Elite', serif;
+}
+h1 span {
+  font-size: 22px;
+}
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.choices a {
+  display: block;
+  text-decoration: none;
+}
+.choices a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
